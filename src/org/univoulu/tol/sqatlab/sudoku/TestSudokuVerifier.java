@@ -34,12 +34,14 @@ public class TestSudokuVerifier {
 		assertEquals(-1, s.verify(testValue));
 	}
 	
+	
 	@Test
-	public void test_valid_alphanumerics() {
+	public void test_invalid_subgrid() {
 		SudokuVerifier s = new SudokuVerifier();
-		String testValue = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String testValue = "417369825432158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(0, s.verify(testValue));
 	}
+	
 	
 	
 

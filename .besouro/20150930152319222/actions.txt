@@ -79,3 +79,9 @@ RefactoringAction 1443617246870 SudokuVerifier.java ADD boolean checkGlobalRow(S
 RefactoringAction 1443617278401 SudokuVerifier.java RENAME checkGlobalRow(String)=>boolean check(String) METHOD
 RefactoringAction 1443617280913 SudokuVerifier.java RENAME check(String)=>boolean checkSubGrid(String) METHOD
 EditAction 1443617295632 SudokuVerifier.java 434 3 5 0
+CompilationAction 1443617295912 SudokuVerifier.java
+RefactoringAction 1443617306906 TestSudokuVerifier.java RENAME test_valid_alphanumerics()=>void test_valid_against_alphanumerics() METHOD
+RefactoringAction 1443617313916 TestSudokuVerifier.java RENAME test_valid_against_alphanumerics()=>void test_valid_alphanumerics() METHOD
+RefactoringAction 1443617318931 TestSudokuVerifier.java RENAME test_valid_alphanumerics()=>void test_invalid_() METHOD
+RefactoringAction 1443617321949 TestSudokuVerifier.java RENAME test_invalid_()=>void test_invalid_subgrid() METHOD
+EditAction 1443617386991 TestSudokuVerifier.java 1272 5 14 5
