@@ -6,6 +6,7 @@ public class SudokuVerifier {
 		if(candidateSolution.length() != 81){
 			return -1;
 		}
+		
 		return 0;
 	}
 	
