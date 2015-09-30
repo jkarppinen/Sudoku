@@ -51,12 +51,12 @@ public class SudokuVerifier {
 	}	
 	private boolean validRows(String val){
 		String[] arr = val.split("");
-		
+		int depth = 9;
 
-		for(int i=0;i<9;i++){
+		for(int i=0;i<depth;i++){
 
 			List<String> tempArray = new ArrayList<String>();
-			for(int j=0;j<9;j++){
+			for(int j=0;j<depth;j++){
 				String letter = arr[1 + (i*9) + j];
 				//System.out.println(String.valueOf(i+j*9) + " Val: " + letter);
 				if(tempArray.contains(letter)){
