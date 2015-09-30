@@ -56,7 +56,7 @@ public class SudokuVerifier {
 		String[] arr = val.split("");
 		
 
-		for(int i=0;i<=9;i++){
+		for(int i=0;i<9;i++){
 
 			List<String> tempArray = new ArrayList<String>();
 			for(int j=0;j<9;j++){
