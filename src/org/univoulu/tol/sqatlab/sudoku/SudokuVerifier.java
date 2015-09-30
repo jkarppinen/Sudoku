@@ -32,10 +32,10 @@ public class SudokuVerifier {
 		String[] arr = val.split("");
 		int depth = 9;
 
-		for(int i=1;i<=9;i++){
+		for(int i=1;i<=depth;i++){
 
 			List<String> tempArray = new ArrayList<String>();
-			for(int j=0;j<9;j++){
+			for(int j=0;j<depth;j++){
 				String letter = arr[i + j * 9];
 				//System.out.println(String.valueOf(i+j*9) + " Val: " + letter);
 				if(tempArray.contains(letter)){
