@@ -7,9 +7,9 @@ import org.junit.Test;
 public class TestSudokuVerifier {
 
 	@Test
-	public void test() {
+	public void test_zerovalue() {
 		SudokuVerifier s = new SudokuVerifier();
-		fail("Not yet implemented");
+		assertEquals(1, s.verify("0"));
 	}
 
 }
