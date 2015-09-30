@@ -28,19 +28,14 @@ public class SudokuVerifier {
 	private boolean validSubGrids(String val){
 		String[] arr = val.split("");
 		List<String> tempArray = new ArrayList<String>();
-		int depth = 9;
-		for(int i=0;i<9;i++){
-			for(int j=0;j<9;j++){
-				System.out.println("i"+String.valueOf(i)+"j"+String.valueOf(j) +
-						"idx"+String.valueOf(i+(j*depth)));
+		
 
-				if(tempArray.contains(arr [i + (j*depth)] ) ){
-					return false;
-				}
-				tempArray.add(arr[i + (j*depth)]);
+		for(int i=0;i<9;i=i++){
+			for(int j=0;j<81;j=j+9){
+				tempArray.add(arr[i*j]);
 			}
-			continue;
 		}
+		
 		return true;
 	}
 	
