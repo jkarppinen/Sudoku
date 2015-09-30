@@ -25,12 +25,9 @@ public class SudokuVerifier {
 	}
 	
 	private boolean validSubGrids(String val){
-		for(int i=0;i<9;i++){
-			List<String> l = new ArrayList<>();
-			int firstValue = i*3;
-			
-			
-		}
+		String[] arr = val.split("");
+		List<String> tempArray = new ListArray<String>();
+		
 		return true;
 	}
 	
