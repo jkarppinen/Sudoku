@@ -35,6 +35,7 @@ public class SudokuVerifier {
 				tempArray.add(arr[i*j]);
 				System.out.println(String.valueOf(i*j));
 			}
+			System.out.println("---");
 		}
 		
 		return true;
