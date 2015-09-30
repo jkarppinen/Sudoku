@@ -31,7 +31,7 @@ public class SudokuVerifier {
 		
 
 		for(int i=0;i<9;i++){
-			for(int j=0;j<9;j++){
+			for(int j=0;j<9;j+9){
 				tempArray.add(arr[i*j]);
 				System.out.println(String.valueOf(i*j));
 			}
