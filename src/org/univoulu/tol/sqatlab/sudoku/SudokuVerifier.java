@@ -32,7 +32,7 @@ public class SudokuVerifier {
 		for(int i=0;i<9;i++){
 			for(int j=0;j<9;j++){
 				if(tempArray.contains(arr [i + (j*depth)] ) ){
-					System.out.println(String.valueOf(i+(j*depth)));
+					System.out.println("i"+String.valueOf(i)+"j"+String.valueOf(j));
 					return false;
 				}
 				tempArray.add(arr[i + (j*depth)]);
