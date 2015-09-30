@@ -11,7 +11,7 @@ public class SudokuVerifier {
 	
 	private boolean digitsOnly(String val) {
 		
-	
+		return true;
 	}
 	
 }

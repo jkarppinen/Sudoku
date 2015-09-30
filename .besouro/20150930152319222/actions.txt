@@ -55,3 +55,5 @@ RefactoringAction 1443616804665 SudokuVerifier.java RENAME onlyInteger=>int only
 RefactoringAction 1443616807173 SudokuVerifier.java RENAME only=>int digitsOnly FIELD
 RefactoringAction 1443616841244 SudokuVerifier.java RENAME digitsOnly()=>boolean digitsOnly(String) METHOD
 EditAction 1443616844198 SudokuVerifier.java 266 2 2 0
+CompilationAction 1443616844413 SudokuVerifier.java
+EditAction 1443616854038 SudokuVerifier.java 279 2 3 0
