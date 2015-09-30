@@ -39,6 +39,7 @@ public class SudokuVerifier {
 				}
 				tempArray.add(arr[i + (j*depth)]);
 			}
+			continue;
 		}
 		return true;
 	}
