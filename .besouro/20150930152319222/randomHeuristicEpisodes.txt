@@ -6,3 +6,4 @@
 1443619393429 test-first 3 2858 true
 1443619403541 regression 1 0 false
 1443619427274 refactoring 2A 2 true
+1443619495386 refactoring 2A 59 false
