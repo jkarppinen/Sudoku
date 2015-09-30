@@ -1,6 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class SudokuVerifier {
@@ -26,8 +27,17 @@ public class SudokuVerifier {
 	
 	private boolean validSubGrids(String val){
 		String[] arr = val.split("");
-		List<String> tempArray = new ListArray<String>();
-		
+		List<String> tempArray = new ArrayList<String>();
+		int depth = 9;
+		for(int i=0;i<9;i++){
+			for(int j=0;j<9;j++){
+				if(tempArray.contains(arr [i + (j*depth)] ) ){
+					System.out.println(String.valueOf(i+(j*depth)));
+					return false;
+				}
+				tempArray.add(arr[i + (j*depth)]);
+			}
+		}
 		return true;
 	}
 	
