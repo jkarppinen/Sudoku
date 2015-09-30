@@ -36,7 +36,7 @@ public class TestSudokuVerifier {
 	
 	
 	@Test
-	public void test_invalid_subgrid() {
+	public void test_invalid_column() {
 		SudokuVerifier s = new SudokuVerifier();
 		String testValue = "417369825432158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(-2, s.verify(testValue));

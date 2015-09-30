@@ -247,3 +247,6 @@ UnitTestSessionAction 1443620175716 TestSudokuVerifier FAIL
 RefactoringAction 1443620205151 TestSudokuVerifier.java ADD void test_invalid_subgrid()/2 METHOD
 RefactoringAction 1443620208166 TestSudokuVerifier.java RENAME test_invalid_subgrid()/2=>void test_invalid_row() METHOD
 EditAction 1443620218030 TestSudokuVerifier.java 1519 6 17 6
+UnitTestCaseAction 1443620218324 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620218325 TestSudokuVerifier FAIL
+EditAction 1443620313058 TestSudokuVerifier.java 1518 6 17 6
