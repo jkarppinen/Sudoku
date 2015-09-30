@@ -8,6 +8,7 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void test() {
+		SudokuVerifier s = new SudokuVerifier();
 		fail("Not yet implemented");
 	}
 
