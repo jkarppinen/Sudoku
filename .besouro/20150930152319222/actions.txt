@@ -88,3 +88,15 @@ EditAction 1443617386991 TestSudokuVerifier.java 1272 5 14 5
 EditAction 1443617399640 SudokuVerifier.java 447 3 6 0
 EditAction 1443617402417 SudokuVerifier.java 448 3 6 0
 EditAction 1443617403876 SudokuVerifier.java 447 3 6 0
+CompilationAction 1443617431729 SudokuVerifier.java
+CompilationAction 1443617431729 SudokuVerifier.java
+CompilationAction 1443617431730 SudokuVerifier.java
+CompilationAction 1443617431730 SudokuVerifier.java
+CompilationAction 1443617431731 SudokuVerifier.java
+CompilationAction 1443617435958 SudokuVerifier.java
+CompilationAction 1443617435959 SudokuVerifier.java
+CompilationAction 1443617435959 SudokuVerifier.java
+CompilationAction 1443617435960 SudokuVerifier.java
+CompilationAction 1443617435960 SudokuVerifier.java
+RefactoringAction 1443617443160 SudokuVerifier.java RENAME checkSubGrid(String)=>boolean validubGrid(String) METHOD
+EditAction 1443617443634 SudokuVerifier.java 513 3 7 0

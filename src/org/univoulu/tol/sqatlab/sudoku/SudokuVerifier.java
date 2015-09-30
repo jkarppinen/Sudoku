@@ -9,6 +9,10 @@ public class SudokuVerifier {
 		if(! digitsOnly(candidateSolution)) {
 			return -1;
 		}
+		if(! checkSubGrid(candidateSolution)){
+			return -2;
+		}
+		
 		return 0;
 	}
 	
@@ -17,7 +21,7 @@ public class SudokuVerifier {
 		return val.matches(regex);
 	}
 	
-	private boolean checkSubGrid(String val){
+	private boolean validSubGrid(String val){
 		
 		return true;
 	}
