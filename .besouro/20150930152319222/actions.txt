@@ -206,3 +206,6 @@ EditAction 1443619730373 SudokuVerifier.java 987 3 9 0
 CompilationAction 1443619730472 SudokuVerifier.java
 CompilationAction 1443619735465 SudokuVerifier.java
 EditAction 1443619750439 SudokuVerifier.java 1045 3 10 0
+CompilationAction 1443619750555 SudokuVerifier.java
+RefactoringAction 1443619755146 SudokuVerifier.java ADD boolean validColumns(String)/2 METHOD
+EditAction 1443619760721 SudokuVerifier.java 1503 4 13 0
