@@ -73,3 +73,9 @@ EditAction 1443617145617 TestSudokuVerifier.java 1271 5 14 5
 UnitTestCaseAction 1443617145911 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443617145911 TestSudokuVerifier FAIL
 EditAction 1443617151756 TestSudokuVerifier.java 1270 5 14 5
+UnitTestCaseAction 1443617153370 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617153370 TestSudokuVerifier FAIL
+RefactoringAction 1443617246870 SudokuVerifier.java ADD boolean checkGlobalRow(String) METHOD
+RefactoringAction 1443617278401 SudokuVerifier.java RENAME checkGlobalRow(String)=>boolean check(String) METHOD
+RefactoringAction 1443617280913 SudokuVerifier.java RENAME check(String)=>boolean checkSubGrid(String) METHOD
+EditAction 1443617295632 SudokuVerifier.java 434 3 5 0

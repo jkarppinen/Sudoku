@@ -17,4 +17,9 @@ public class SudokuVerifier {
 		return val.matches(regex);
 	}
 	
+	private boolean checkSubGrid(String val){
+		
+	
+	}
+	
 }
