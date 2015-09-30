@@ -105,3 +105,7 @@ RefactoringAction 1443617446682 SudokuVerifier.java RENAME validSubGrid(String)=
 CompilationAction 1443617452546 SudokuVerifier.java
 RefactoringAction 1443617645621 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
 EditAction 1443617646782 SudokuVerifier.java 617 3 8 0
+CompilationAction 1443617647042 SudokuVerifier.java
+RefactoringAction 1443617660098 SudokuVerifier.java ADD import java.util.List IMPORT
+CompilationAction 1443617661593 SudokuVerifier.java
+EditAction 1443617697860 SudokuVerifier.java 672 3 8 0
