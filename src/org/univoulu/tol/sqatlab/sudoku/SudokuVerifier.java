@@ -40,7 +40,7 @@ public class SudokuVerifier {
 			List<String> tempArray = new ArrayList<String>();
 			for(int j=0;j<9;j++){
 				String letter = arr[i + j * 9];
-				System.out.println(String.valueOf(i+j*9) + " Val: " + letter);
+				//System.out.println(String.valueOf(i+j*9) + " Val: " + letter);
 				if(tempArray.contains(letter)){
 					return false;
 				}
@@ -68,7 +68,7 @@ public class SudokuVerifier {
 
 				tempArray.add(letter);
 			}
-			System.out.println(tempArray);
+			System.out.println("A"+tempArray);
 		}
 		
 		return true;
