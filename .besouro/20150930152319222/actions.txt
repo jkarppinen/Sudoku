@@ -40,3 +40,6 @@ UnitTestSessionAction 1443616438343 TestSudokuVerifier OK
 RefactoringAction 1443616494934 TestSudokuVerifier.java ADD void test_validValue()/2 METHOD
 RefactoringAction 1443616515966 TestSudokuVerifier.java RENAME test_validValue()/2=>void test_invalidValue() METHOD
 EditAction 1443616531561 TestSudokuVerifier.java 760 3 8 3
+UnitTestCaseAction 1443616531862 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616531862 TestSudokuVerifier OK
+EditAction 1443616534621 TestSudokuVerifier.java 760 3 8 3
