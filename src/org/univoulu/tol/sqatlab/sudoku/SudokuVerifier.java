@@ -41,7 +41,7 @@ public class SudokuVerifier {
 
 				tempArray.add(letter);
 			}
-			System.out.println(arr);
+			System.out.println(tempArray);
 		}
 		
 		return true;
