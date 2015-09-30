@@ -17,9 +17,6 @@ public class SudokuVerifier {
 			return -4;
 		}
 		if(! validRows(candidateSolution)){
-			return -2;
-		}
-		if(! validRows(candidateSolution)){
 			return -3;
 		}
 		
