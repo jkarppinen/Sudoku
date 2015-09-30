@@ -15,8 +15,8 @@ public class TestSudokuVerifier {
 	@Test
 	public void test_validValue() {
 		SudokuVerifier s = new SudokuVerifier();
-		String sudokuValue = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
-		assertEquals(1, s.verify(sudokuValue));
+		String testValue = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		assertEquals(1, s.verify(testValue));
 	}
 	
 	

@@ -29,3 +29,4 @@ UnitTestSessionAction 1443616275481 TestSudokuVerifier OK
 RefactoringAction 1443616315945 TestSudokuVerifier.java ADD void test_zerovalue()/2 METHOD
 RefactoringAction 1443616335471 TestSudokuVerifier.java RENAME test_zerovalue()/2=>void test_validValue() METHOD
 EditAction 1443616370304 TestSudokuVerifier.java 524 2 5 2
+EditAction 1443616377848 TestSudokuVerifier.java 520 2 5 2
