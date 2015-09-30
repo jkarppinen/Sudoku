@@ -30,7 +30,7 @@ public class SudokuVerifier {
 	
 	private boolean validColumns(String val){
 		String[] arr = val.split("");
-		
+		int depth = 9;
 
 		for(int i=1;i<=9;i++){
 
