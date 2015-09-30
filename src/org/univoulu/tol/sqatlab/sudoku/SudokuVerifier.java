@@ -25,7 +25,7 @@ public class SudokuVerifier {
 		return val.matches(regex);
 	}
 	
-	private boolean validSubGrids(String val){
+	private boolean validColumns(String val){
 		String[] arr = val.split("");
 		
 
