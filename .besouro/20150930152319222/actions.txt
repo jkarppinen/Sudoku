@@ -63,3 +63,4 @@ RefactoringAction 1443616948846 TestSudokuVerifier.java ADD void test_invalidVal
 RefactoringAction 1443616956364 TestSudokuVerifier.java RENAME test_invalidValue()/2=>void test_alphanumeric() METHOD
 RefactoringAction 1443616957381 TestSudokuVerifier.java RENAME test_alphanumeric()=>void test_alphanumerics() METHOD
 EditAction 1443616974796 TestSudokuVerifier.java 1012 4 11 4
+EditAction 1443617102313 SudokuVerifier.java 376 2 5 0
