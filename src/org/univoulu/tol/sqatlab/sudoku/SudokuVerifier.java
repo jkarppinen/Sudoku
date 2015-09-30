@@ -13,13 +13,13 @@ public class SudokuVerifier {
 		if(! digitsOnly(candidateSolution)) {
 			return -1;
 		}
-		if(! validColumns(candidateSolution)){
-			return -4;
-		}
 		if(! validRows(candidateSolution)){
 			return -3;
 		}
-		
+
+		if(! validColumns(candidateSolution)){
+			return -4;
+		}
 		return 0;
 	}
 	
