@@ -27,10 +27,11 @@ public class SudokuVerifier {
 	
 	private boolean validSubGrids(String val){
 		String[] arr = val.split("");
-		List<String> tempArray = new ArrayList<String>();
 		
 
 		for(int i=0;i<9;i++){
+
+			List<String> tempArray = new ArrayList<String>();
 			for(int j=0;j<9;j++){
 				tempArray.add(arr[i+j*9]);
 				System.out.println(String.valueOf(i+j*9));
