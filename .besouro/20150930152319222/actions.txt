@@ -250,3 +250,5 @@ EditAction 1443620218030 TestSudokuVerifier.java 1519 6 17 6
 UnitTestCaseAction 1443620218324 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443620218325 TestSudokuVerifier FAIL
 EditAction 1443620313058 TestSudokuVerifier.java 1518 6 17 6
+RefactoringAction 1443620316742 TestSudokuVerifier.java ADD void test_invalid_row()/2 METHOD
+EditAction 1443620321027 TestSudokuVerifier.java 1768 7 20 7
