@@ -13,7 +13,10 @@ public class SudokuVerifier {
 		if(! digitsOnly(candidateSolution)) {
 			return -1;
 		}
-		if(! validSubGrids(candidateSolution)){
+		if(! validColumns(candidateSolution)){
+			return -2;
+		}
+		if(! validRows(candidateSolution)){
 			return -2;
 		}
 		
