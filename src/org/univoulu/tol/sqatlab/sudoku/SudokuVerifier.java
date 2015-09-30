@@ -19,7 +19,7 @@ public class SudokuVerifier {
 	
 	private boolean checkSubGrid(String val){
 		
-		return false;
+		return true;
 	}
 	
 }
