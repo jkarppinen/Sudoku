@@ -11,7 +11,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		if(! digitsOnly(candidateSolution)) {
-			return -1;
+			return -3;
 		}
 		if(! validSubGrids(candidateSolution)){
 			return -2;
