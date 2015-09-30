@@ -9,9 +9,6 @@ public class SudokuVerifier {
 		}
 		else {
 			return 0;
-			}
-		}	
+		}
 	}
-	
-	
 }

@@ -9,7 +9,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void test_zerovalue() {
 		SudokuVerifier s = new SudokuVerifier();
-		assertEquals(1, s.verify("0"));
+		assertEquals(0, s.verify("0"));
 	}
 
 }
