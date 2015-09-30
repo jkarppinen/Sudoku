@@ -57,3 +57,4 @@ RefactoringAction 1443616841244 SudokuVerifier.java RENAME digitsOnly()=>boolean
 EditAction 1443616844198 SudokuVerifier.java 266 2 2 0
 CompilationAction 1443616844413 SudokuVerifier.java
 EditAction 1443616854038 SudokuVerifier.java 279 2 3 0
+EditAction 1443616889904 SudokuVerifier.java 315 2 4 0

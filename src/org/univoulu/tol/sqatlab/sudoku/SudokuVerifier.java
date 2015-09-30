@@ -10,8 +10,8 @@ public class SudokuVerifier {
 	}
 	
 	private boolean digitsOnly(String val) {
-		
-		return true;
+		String regex = "\\d+";
+		return val.matches(regex);
 	}
 	
 }
