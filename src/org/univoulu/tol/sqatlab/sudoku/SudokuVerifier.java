@@ -56,7 +56,7 @@ public class SudokuVerifier {
 			List<String> tempArray = new ArrayList<String>();
 			for(int j=0;j<depth;j++){
 				String letter = arr[1 + (i*depth) + j];
-				//System.out.println(String.valueOf(i+j*9) + " Val: " + letter);
+				
 				if(tempArray.contains(letter)){
 					return false;
 				}
