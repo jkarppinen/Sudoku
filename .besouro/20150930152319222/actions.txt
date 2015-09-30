@@ -100,3 +100,8 @@ CompilationAction 1443617435960 SudokuVerifier.java
 CompilationAction 1443617435960 SudokuVerifier.java
 RefactoringAction 1443617443160 SudokuVerifier.java RENAME checkSubGrid(String)=>boolean validubGrid(String) METHOD
 EditAction 1443617443634 SudokuVerifier.java 513 3 7 0
+CompilationAction 1443617443899 SudokuVerifier.java
+RefactoringAction 1443617446682 SudokuVerifier.java RENAME validSubGrid(String)=>boolean validSubGrids(String) METHOD
+CompilationAction 1443617452546 SudokuVerifier.java
+RefactoringAction 1443617645621 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+EditAction 1443617646782 SudokuVerifier.java 617 3 8 0

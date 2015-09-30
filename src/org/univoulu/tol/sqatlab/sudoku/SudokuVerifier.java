@@ -1,5 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.ArrayList;
+
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
@@ -9,7 +11,7 @@ public class SudokuVerifier {
 		if(! digitsOnly(candidateSolution)) {
 			return -1;
 		}
-		if(! checkSubGrid(candidateSolution)){
+		if(! validSubGrids(candidateSolution)){
 			return -2;
 		}
 		
@@ -21,8 +23,11 @@ public class SudokuVerifier {
 		return val.matches(regex);
 	}
 	
-	private boolean validSubGrid(String val){
-		
+	private boolean validSubGrids(String val){
+		for(int i=0;i<9;i++){
+			List<String> l = new ArrayList<>();
+			
+		}
 		return true;
 	}
 	
