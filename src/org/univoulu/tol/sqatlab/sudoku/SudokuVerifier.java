@@ -4,11 +4,11 @@ public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
 		SudokuVerifier s = new SudokuVerifier();
-		if(candidateSolution.length() == 81){
-			return 1;
+		if(candidateSolution.length() != 81){
+			return 0;
 		}
 		else {
-			return 0;
+			return 1;
 		}
 	}
 	

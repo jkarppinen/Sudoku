@@ -31,3 +31,6 @@ RefactoringAction 1443616335471 TestSudokuVerifier.java RENAME test_zerovalue()/
 EditAction 1443616370304 TestSudokuVerifier.java 524 2 5 2
 EditAction 1443616377848 TestSudokuVerifier.java 520 2 5 2
 EditAction 1443616384984 SudokuVerifier.java 271 1 2 0
+UnitTestCaseAction 1443616385286 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616385286 TestSudokuVerifier OK
+EditAction 1443616428919 SudokuVerifier.java 271 1 2 0
