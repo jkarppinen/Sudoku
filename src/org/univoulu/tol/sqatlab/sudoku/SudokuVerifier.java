@@ -10,9 +10,11 @@ public class SudokuVerifier {
 		if(candidateSolution.length() != 81){
 			return -1;
 		}
+
 		if(! digitsOnly(candidateSolution)) {
 			return -1;
 		}
+		
 		if(! validRows(candidateSolution)){
 			return -3;
 		}
@@ -20,7 +22,43 @@ public class SudokuVerifier {
 		if(! validColumns(candidateSolution)){
 			return -4;
 		}
+
+		if(! validSubGrids(candidateSolution)){
+			return -5;
+		}
 		return 0;
+	}
+	
+	private boolean validSubGrids(String val){
+		int startCell = 0;
+		String letter = "";
+		String[] arr = val.split("");
+		
+		
+		for(int col=0;col<3;col++){
+
+		startCell = 0 + (col*3);
+			for(int row=0;row<3;row++){
+
+				List<String> tempArray = new ArrayList<String>();
+				// New subgrid
+				for(int i=0;i<3;i++){
+
+					for(int j=0;j<3;j++){
+						letter =  arr[startCell+j] ;
+
+						if(tempArray.contains(letter)){
+							return false;
+						}
+						tempArray.add(letter);
+					}
+					
+					startCell += 9;
+		
+				}
+			}
+		}
+		return true;
 	}
 	
 	private boolean digitsOnly(String val) {
@@ -35,7 +73,7 @@ public class SudokuVerifier {
 		for(int i=1;i<=depth;i++){
 
 			List<String> tempArray = new ArrayList<String>();
-			for(int j=0;j<depth;j++){
+			for(int j=0;j<depth-1;j++){
 				String letter = arr[i + j * depth];
 				if(tempArray.contains(letter)){
 					return false;
@@ -55,7 +93,8 @@ public class SudokuVerifier {
 
 			List<String> tempArray = new ArrayList<String>();
 			for(int j=0;j<depth;j++){
-				String letter = arr[1 + (i*depth) + j];
+				String letter = arr[(i*depth) + j];
+
 				
 				if(tempArray.contains(letter)){
 					return false;
@@ -63,7 +102,7 @@ public class SudokuVerifier {
 
 				tempArray.add(letter);
 			}
-			System.out.println("A"+tempArray);
+			
 		}
 		
 		return true;
